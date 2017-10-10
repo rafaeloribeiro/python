@@ -55,7 +55,7 @@ if __name__ == '__main__':
         y1.append(bandwidth)  # for the graph
 
     plt.subplot(2,1,1)
-    plt.plot(x1,y1)
+    plt.plot(x1,y1, 'o-')
     plt.title('RTT and packet loss variation')
     plt.xlabel('Round trip time (ms)')
     plt.ylabel('Max_BW (b/s)')
@@ -73,7 +73,7 @@ if __name__ == '__main__':
         y2.append(bandwidth)  # for the graph
 
     plt.subplot(2,1,2)
-    plt.plot(x2,y2)
+    plt.plot(x2,y2, 'o-')
     plt.xlabel('Packet loss')
     plt.ylabel('Max_BW (b/s)')
 
