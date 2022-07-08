@@ -1,9 +1,9 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # ----------------------------------------------------------------------
 # TCP Throughput Calculator
 # Creation date: 2017-10-09
 # Creator: Rafael de Oliveira Ribeiro <rafael.ribeiro@ieee.org>
-# Last updated: 2017-10-10
+# Last updated: 2022-07-08
 # Last updated by: Rafael de Oliveira Ribeiro <rafael.ribeiro@ieee.org>
 # ----------------------------------------------------------------------
 # Script created for calculating TCP throughput, based on Mathis'
@@ -12,6 +12,9 @@
 # (URL: http://ccr.sigcomm.org/archive/1997/jul97/ccr-9707-mathis.pdf)
 #
 # Extra reference: https://www.netcraftsmen.com/tcp-performance-and-the-mathis-equation/
+#
+# On newer Python3, needs the appropriate tk module:
+#  If python 3.8 is bein used: sudo apt-get install python3.8-tk
 #
 
 import math                      # needed for most calculations
